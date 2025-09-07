@@ -57,4 +57,18 @@ console.log(findAngle(180))
 
 //EXERCISE 4
 
-function 
+function right(string){
+    if(string.length < 3){
+        return string;
+    }
+
+    let lastLetters = string.slice(-3);
+    let firstLetters = string.slice(0, string.length-3);
+    let result = lastLetters + firstLetters;
+    return result;
+}
+
+console.log(right("Python"));
+console.log(right("JavaScript"));
+console.log(right("Hi"));
+
