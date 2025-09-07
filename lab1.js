@@ -47,7 +47,6 @@ function findAngle(degree){
         else if(degree > 90 && degree < 180){
             return "Obtuse angle";
         }
-        else if()
     }
 
 console.log(findAngle(47))
