@@ -41,7 +41,7 @@ function findAngle(degree){
         else if(degree > 0 && degree <90){
             return "Acute angle";
         }
-        else if(degree === 90){r
+        else if(degree === 90){
             return "Right angle"
         }
         else if(degree > 90 && degree < 180){
@@ -53,3 +53,8 @@ console.log(findAngle(47))
 console.log(findAngle(90))
 console.log(findAngle(145))
 console.log(findAngle(180))
+
+
+//EXERCISE 4
+
+function 
