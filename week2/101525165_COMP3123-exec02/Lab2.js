@@ -19,3 +19,11 @@ function capitalize(string){
 
 console.log(capitalize("fooBar"));
 console.log(capitalize("nodeJs"));
+
+//Exercise 3
+const colors = ['red', 'green', 'blue'];
+const capitalizedColors = colors.map(capitalize);
+console.log(capitalizedColors);
+
+//Exercise 4
+
