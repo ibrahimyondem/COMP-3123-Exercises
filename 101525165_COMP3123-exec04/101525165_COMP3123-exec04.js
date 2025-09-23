@@ -23,3 +23,7 @@ app.post("/users", (req, res) => {
   const users = req.body; // array of objects [{firstname, lastname}, ...]
   res.json(users);
 });
+
+app.listen(PORT, () => {
+  console.log(`Server running at http://localhost:${PORT}`);
+});

@@ -1,0 +1,15 @@
+{
+  "name": "101525165_comp3123-exec04",
+  "version": "1.0.0",
+  "description": "",
+  "main": "101525165_COMP3123-exec04.js",
+  "scripts": {
+    "start": "nodemon 101525165_COMP3123-exec04.js"
+  },
+  "keywords": [],
+  "author": "Ibrahim Yondem",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
