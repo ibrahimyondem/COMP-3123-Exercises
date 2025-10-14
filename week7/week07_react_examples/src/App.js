@@ -4,6 +4,7 @@ import React, {Fragment} from 'react';
 import College from './components/college/college';
 import Student from './components/students/students';
 import StudentObj from './components/students/studentObj';
+import Employee from './components/employee/employee';
 
 function App() {
   let name = "Ibrahim Yondem";
@@ -15,6 +16,7 @@ function App() {
       {/* <img src={logo} alt='Image' size></img> */}
       {/* <h2>{name}</h2> */}
     <h2 style={myStyle}>{name}</h2>
+      <Employee></Employee>
       <College></College>
       <Student fnm="Ibrahim" lnm="Yondem"/>
       <StudentObj stud={ {fnm: "Sokmontrey", lnm: "Sythat", city: "Toronto"} }/>
